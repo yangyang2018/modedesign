@@ -10,4 +10,15 @@ package com.ibeidiao.hello;
 */
 
 public class Test {
+
+    public static void main(String[] args) {
+
+        int[] aa = new int[3];
+
+        System.out.println(aa[0]);
+        System.out.println(aa[1]);
+        System.out.println(aa[2]);
+
+    }
+
 }
