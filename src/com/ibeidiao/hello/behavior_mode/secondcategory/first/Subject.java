@@ -1,8 +1,6 @@
-package com.ibeidiao.hello.behavior_mode.secondcategory;
+package com.ibeidiao.hello.behavior_mode.secondcategory.first;
 
-import sun.reflect.generics.tree.VoidDescriptor;
-
-import javax.jws.Oneway;
+import com.ibeidiao.hello.behavior_mode.secondcategory.first.Observer;
 
 /**
 *

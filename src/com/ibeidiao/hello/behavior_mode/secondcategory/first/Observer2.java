@@ -1,4 +1,4 @@
-package com.ibeidiao.hello.behavior_mode.secondcategory;
+package com.ibeidiao.hello.behavior_mode.secondcategory.first;
 
 /**
  * @ author  shayu

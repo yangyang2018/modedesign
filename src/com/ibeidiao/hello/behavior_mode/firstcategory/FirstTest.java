@@ -1,6 +1,13 @@
 package com.ibeidiao.hello.behavior_mode.firstcategory;
 
 
+import com.ibeidiao.hello.behavior_mode.firstcategory.first.ICalculator;
+import com.ibeidiao.hello.behavior_mode.firstcategory.first.Minus;
+import com.ibeidiao.hello.behavior_mode.firstcategory.first.Mutiply;
+import com.ibeidiao.hello.behavior_mode.firstcategory.first.Plus;
+import com.ibeidiao.hello.behavior_mode.firstcategory.second.AbstractCaculator2;
+import com.ibeidiao.hello.behavior_mode.firstcategory.second.Plus2;
+
 /**
 *
 * @ author  shayu
@@ -22,7 +29,7 @@ public class FirstTest {
      */
 
     public static void main1(String[] args) {
-        ICalculator  calculator = new Plus();
+        ICalculator calculator = new Plus();
         System.out.println(calculator.calculate("2+4"));
     }
 
@@ -44,7 +51,7 @@ public class FirstTest {
      */
     public static void main(String[] args) {
 
-        AbstractCaculator2  abstractCaculator2 = new Plus2();
+        AbstractCaculator2 abstractCaculator2 = new Plus2();
 
         System.out.println(abstractCaculator2.calculate("2+3","\\+"));
 

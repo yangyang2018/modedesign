@@ -1,4 +1,4 @@
-package com.ibeidiao.hello.behavior_mode.firstcategory;
+package com.ibeidiao.hello.behavior_mode.firstcategory.first;
 
 /**
 *
@@ -9,7 +9,7 @@ package com.ibeidiao.hello.behavior_mode.firstcategory;
 *
 */
 
-public class Minus  extends AbstractCalculator implements ICalculator{
+public class Minus  extends AbstractCalculator implements ICalculator {
     @Override
     public int calculate(String exp) {
         int[] intarray = split(exp,"\\-");

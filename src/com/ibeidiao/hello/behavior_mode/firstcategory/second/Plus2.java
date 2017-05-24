@@ -1,4 +1,6 @@
-package com.ibeidiao.hello.behavior_mode.firstcategory;
+package com.ibeidiao.hello.behavior_mode.firstcategory.second;
+
+import com.ibeidiao.hello.behavior_mode.firstcategory.second.AbstractCaculator2;
 
 /**
 *

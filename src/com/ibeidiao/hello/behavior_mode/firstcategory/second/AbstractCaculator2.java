@@ -1,4 +1,4 @@
-package com.ibeidiao.hello.behavior_mode.firstcategory;
+package com.ibeidiao.hello.behavior_mode.firstcategory.second;
 
 /**
 *
